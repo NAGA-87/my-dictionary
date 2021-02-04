@@ -1,0 +1,25 @@
+<div class = "session-img">
+  <%= render 'shared/header' %>
+</div>
+
+<div class = "main">
+  <div class = "title-contents">
+    <div class = "title">
+      <h1>To become a</h1><br>
+      <h1>Successful Developer</h1>
+    </div>
+  </div>
+
+<div class = "get-user">
+  <div class = "user-box">
+    <%= form_with(model:,url:,local: true) do |f| %>
+      <div class = "login-field">
+        <div class = "name-form">
+          <div class = "form-group">
+            <%= f.label "メールアドレス" %>
+            <%= f.email_%>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>      
