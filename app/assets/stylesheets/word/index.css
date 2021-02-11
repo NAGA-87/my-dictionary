@@ -4,10 +4,10 @@
 .side-bar {
   background-color: #253141;
   width: 300px;
-  height: 85.4vh;
+  height: 100vh;
 }
 .word-list {
   background-color: #FFFFFF;
   width: calc(100vw - 300px);
-  height: 85.4vh;
+  height: 100vh;
 }

@@ -2,8 +2,24 @@
   width: 100vw;
   height: 80px;
   padding: 2vh 15vw;
-  display: flex;
-  flex-direction: column;
-  background-color: black;
+  position: absolute;
+  background-color: #000;
   opacity: 0.3;
+}
+
+.nav {
+  height: 80px;
+}
+
+.nav-detail {
+  display: flex;
+  margin-top: 23px;
+  width: 100%;
+}
+
+.list {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 40px;
 }
